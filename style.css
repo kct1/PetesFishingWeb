@@ -1,0 +1,317 @@
+/* This is the stylesheet for Pete's Fishing Supplies Webpage 
+* Project: Ficticious Pete's Fishing Supplies site
+* Created by: Kyle Tuczynski
+* Date: May 18th, 2015
+*/
+
+body
+{
+	background-color: #FFFFEC;
+	color: #F8F8FF;
+	font-size: 87.5%;
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 
+	'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.body 
+{
+	clear: both; 
+	margin: 0 auto; 
+	width: 70%;
+}
+	
+/* Headings */ 
+h2 {font-size: 1.571em}	
+h3 {font-size: 1.429em}	
+h4 {font-size: 1.286em}	
+h5 {font-size: 1.143em}	
+h6 {font-size: 1em}		
+
+h2, h3, h4, h5, h6 
+{
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+a 
+{
+	outline: 0;
+	}
+
+a img 
+{
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited
+ {
+	color: #000029;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:hover, a:active 
+{
+	background-color: #CF5C3F;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/* Top Site Navigation */   
+.siteNav nav 
+{
+	background: #E5E4E2;
+	font-size: 1.143em;
+	height: 25px;
+	line-height: 20px;
+	margin: 0 auto 10px auto;
+	text-align: right;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+.siteNav nav ul 
+{
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.siteNav nav ul li
+ {
+	float: right; 
+	display: inline; 
+}
+	
+.siteNav nav a:link, .siteNav nav a:visited 
+{
+	color: black;
+	display: inline-block;
+	height: 15px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.siteNav nav a:hover, .siteNav nav a:active,
+.siteNav nav .active a:link, .siteNav nav .active a:visited 
+{
+	background: #246B24;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.siteNav nav li a 
+{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Main Navigation */   
+.mainHeader nav 
+{
+	background: #E5E4E2;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 40px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+.mainHeader nav ul 
+{
+	list-style: none; 
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li
+ {
+	float: center; 
+	display: inline; 
+}
+	
+.mainHeader nav a:link, .mainHeader nav a:visited 
+{
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+	color: black;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited 
+{
+	background: #246B24;
+	color: #fff;
+	text-shadow: none !important;
+}
+	
+.mainHeader nav li a
+ {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader img 
+{
+	width: 40%;
+	height: auto;
+	margin: 3% 0;
+	border-radius: 5px;
+}
+
+
+/* Content Area */
+
+.mainContent 
+{
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.salecontent
+{
+	background-color: #FAFAFA;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+.brandcontent 
+{
+	background-color: #DFE7FF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;	
+	margin-bottom: 3%;
+}
+
+.brandcontent ul
+{
+	list-style: none
+}
+
+.brandcontent ul li
+{
+	display: inline;
+	padding: 30px;
+}
+.conservationcontent
+{
+	background-color: #FAFAFA;	
+	width: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.adcontent
+{
+	background-color: #FAFAFA;	
+	width: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+.topcontent 
+{
+	background-color: #DFE7FF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;	
+	margin-bottom: 3%;
+}
+
+.topcontent ul
+{
+	list-style: none
+}
+
+.topcontent ul li
+{
+	display: inline;
+	padding: 10px;
+}
+
+.bottomcontent 
+{
+	background-color: #FAFAFA;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	padding: 3% 5%;
+}
+
+.bottomcontent ul
+{
+	list-style: none
+}
+
+.bottomcontent ul li
+{
+	display: inline;
+	padding: 5px;
+}
+
+.sweep
+{
+	background-color: #FAFAFA;	
+	width: auto;
+	height: fill;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	margin-top: 5px;
+
+
+}
+
+.content 
+{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+/* Footer */
+.mainFooter 
+{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	padding-left: 0;
+	background-color: #E5E4E2;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;		
+}
+
+.mainFooter p 
+{
+	width: 91%;
+	margin: 2% auto;
+	color: black;
+}
+
